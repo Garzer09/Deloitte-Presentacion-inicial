@@ -1,0 +1,15 @@
+{
+  "origen": "https://www.pexels.com/ · https://videos.pexels.com/video-files/34281359/14523608_3840_2160_30fps.mp4",
+  "archivo_original": "14523608_3840_2160_30fps.mp4",
+  "bytes_original": 67182988,
+  "sha256_original": "838f476ffb06be6100a41aab7f7889fa62fa26ce3b7c6ce2348a06823cfd2cc8",
+  "original": "3840x2160, 30 fps, 6,0 s, H.264, sin audio",
+  "video": "portada-lineas-verdes.mp4",
+  "bytes_video": 1588862,
+  "sha256_video": "8f49611458405e5513ca8b789b973b3fa9824edf52a294038ee5d895784f39bd",
+  "codificacion": "AVFoundation (encode_video.swift): H.264 High, 1920x1080, 2 Mbps de media, clave cada 60 fotogramas, 180 fotogramas, sin audio, optimizado para web. Sin recorte, color ni cambios de contenido.",
+  "poster": "portada-lineas-verdes-poster.jpg · fotograma 0 s (poster_frame.swift), JPEG calidad 0,6",
+  "bytes_poster": 211878,
+  "bucle": "El último fotograma coincide con el primero; se reproduce en bucle.",
+  "uso": "Fondo de la portada (diapositiva 1). Con movimiento reducido o impresión se muestra el poster."
+}
