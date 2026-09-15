@@ -1,0 +1,504 @@
+{
+  "consulted": "2026-09-15",
+  "source": "https://www.trackingai.org/home",
+  "raw_source": "https://www.trackingai.org/app/database/proj_IQ/score_logs/iq/daily_logs.csv",
+  "method": "Reproduce la media redondeada de las últimas 7 ejecuciones disponibles por configuración, o 1 para Fable, según el código público de TrackingAI. Astra tiene una única observación. Conversión por ejecución: round(63.5 + 3 * (aciertos - 5.833)). Selección: 7 configuraciones verbales con observaciones en septiembre de 2026; se muestran Fable, Astra, Gemini, Grok, Qwen y las variantes base Opus y Sonnet, sin mezclar visión y texto. No es un ranking exhaustivo.",
+  "rows": [
+    {
+      "id": "Claude-Fable",
+      "name": "Claude-5.1 Fable",
+      "score": 151,
+      "n": 1,
+      "from_date": "2026-09-03",
+      "to_date": "2026-09-03",
+      "modality": "verbal",
+      "selected": true,
+      "runs": [
+        {
+          "date": "2026-09-03T15:52:13",
+          "raw": 35,
+          "score": 151
+        }
+      ]
+    },
+    {
+      "id": "Claude-Fable-Vision",
+      "name": "Claude-5.1 Fable (Vision)",
+      "score": 145,
+      "n": 1,
+      "from_date": "2026-09-03",
+      "to_date": "2026-09-03",
+      "modality": "visual",
+      "selected": false,
+      "runs": [
+        {
+          "date": "2026-09-03T06:23:42",
+          "raw": 33,
+          "score": 145
+        }
+      ]
+    },
+    {
+      "id": "GPT-Astra-Ultra",
+      "name": "GPT 6 Astra Ultra",
+      "score": 145,
+      "n": 1,
+      "from_date": "2026-09-07",
+      "to_date": "2026-09-07",
+      "modality": "verbal",
+      "selected": true,
+      "runs": [
+        {
+          "date": "2026-09-07T23:14:47",
+          "raw": 33,
+          "score": 145
+        }
+      ]
+    },
+    {
+      "id": "Gemini Pro",
+      "name": "Gemini 3.1 Pro",
+      "score": 144,
+      "n": 7,
+      "from_date": "2026-08-06",
+      "to_date": "2026-09-11",
+      "modality": "verbal",
+      "selected": true,
+      "runs": [
+        {
+          "date": "2026-09-11T15:58:08",
+          "raw": 32,
+          "score": 142
+        },
+        {
+          "date": "2026-09-03T16:09:37",
+          "raw": 32,
+          "score": 142
+        },
+        {
+          "date": "2026-08-27T16:00:02",
+          "raw": 34,
+          "score": 148
+        },
+        {
+          "date": "2026-08-20T16:04:13",
+          "raw": 32,
+          "score": 142
+        },
+        {
+          "date": "2026-08-17T21:34:44",
+          "raw": 34,
+          "score": 148
+        },
+        {
+          "date": "2026-08-13T16:02:53",
+          "raw": 32,
+          "score": 142
+        },
+        {
+          "date": "2026-08-06T16:28:23",
+          "raw": 33,
+          "score": 145
+        }
+      ]
+    },
+    {
+      "id": "Grok-4-5",
+      "name": "Grok 4.6 High",
+      "score": 143,
+      "n": 7,
+      "from_date": "2026-08-06",
+      "to_date": "2026-09-11",
+      "modality": "verbal",
+      "selected": true,
+      "runs": [
+        {
+          "date": "2026-09-11T19:01:47",
+          "raw": 33,
+          "score": 145
+        },
+        {
+          "date": "2026-09-03T19:00:25",
+          "raw": 31,
+          "score": 139
+        },
+        {
+          "date": "2026-08-27T18:55:49",
+          "raw": 33,
+          "score": 145
+        },
+        {
+          "date": "2026-08-20T18:50:42",
+          "raw": 31,
+          "score": 139
+        },
+        {
+          "date": "2026-08-13T18:45:09",
+          "raw": 33,
+          "score": 145
+        },
+        {
+          "date": "2026-08-13T00:11:44",
+          "raw": 33,
+          "score": 145
+        },
+        {
+          "date": "2026-08-06T19:02:34",
+          "raw": 33,
+          "score": 145
+        }
+      ]
+    },
+    {
+      "id": "Qwen",
+      "name": "Qwen 3.8 Max",
+      "score": 142,
+      "n": 7,
+      "from_date": "2026-06-24",
+      "to_date": "2026-09-02",
+      "modality": "verbal",
+      "selected": true,
+      "runs": [
+        {
+          "date": "2026-09-02T20:03:03",
+          "raw": 34,
+          "score": 148
+        },
+        {
+          "date": "2026-08-26T20:23:47",
+          "raw": 32,
+          "score": 142
+        },
+        {
+          "date": "2026-08-19T18:22:15",
+          "raw": 33,
+          "score": 145
+        },
+        {
+          "date": "2026-08-19T00:23:17",
+          "raw": 33,
+          "score": 145
+        },
+        {
+          "date": "2026-08-12T19:52:28",
+          "raw": 32,
+          "score": 142
+        },
+        {
+          "date": "2026-07-01T17:11:59",
+          "raw": 31,
+          "score": 139
+        },
+        {
+          "date": "2026-06-24T16:59:51",
+          "raw": 30,
+          "score": 136
+        }
+      ]
+    },
+    {
+      "id": "Claude-5-Opus-Max",
+      "name": "Claude-5 Opus MAX",
+      "score": 142,
+      "n": 6,
+      "from_date": "2026-07-29",
+      "to_date": "2026-09-14",
+      "modality": "verbal",
+      "selected": false,
+      "runs": [
+        {
+          "date": "2026-09-14T21:18:32",
+          "raw": 32,
+          "score": 142
+        },
+        {
+          "date": "2026-09-07T01:25:53",
+          "raw": 32,
+          "score": 142
+        },
+        {
+          "date": "2026-08-31T01:28:38",
+          "raw": 33,
+          "score": 145
+        },
+        {
+          "date": "2026-08-24T01:18:53",
+          "raw": 33,
+          "score": 145
+        },
+        {
+          "date": "2026-08-09T20:33:19",
+          "raw": 32,
+          "score": 142
+        },
+        {
+          "date": "2026-07-29T00:20:32",
+          "raw": 29,
+          "score": 133
+        }
+      ]
+    },
+    {
+      "id": "Claude-5-Opus",
+      "name": "Claude-5 Opus",
+      "score": 141,
+      "n": 7,
+      "from_date": "2026-07-28",
+      "to_date": "2026-09-13",
+      "modality": "verbal",
+      "selected": true,
+      "runs": [
+        {
+          "date": "2026-09-13T20:33:46",
+          "raw": 31,
+          "score": 139
+        },
+        {
+          "date": "2026-09-05T20:23:18",
+          "raw": 33,
+          "score": 145
+        },
+        {
+          "date": "2026-08-29T16:38:57",
+          "raw": 34,
+          "score": 148
+        },
+        {
+          "date": "2026-08-22T16:37:55",
+          "raw": 31,
+          "score": 139
+        },
+        {
+          "date": "2026-08-15T20:25:03",
+          "raw": 33,
+          "score": 145
+        },
+        {
+          "date": "2026-08-08T16:33:30",
+          "raw": 32,
+          "score": 142
+        },
+        {
+          "date": "2026-07-28T23:21:31",
+          "raw": 27,
+          "score": 127
+        }
+      ]
+    },
+    {
+      "id": "Claude-5-Opus-Vision",
+      "name": "Claude-5 Opus (Vision)",
+      "score": 140,
+      "n": 4,
+      "from_date": "2026-08-10",
+      "to_date": "2026-09-07",
+      "modality": "visual",
+      "selected": false,
+      "runs": [
+        {
+          "date": "2026-09-07T06:51:56",
+          "raw": 32,
+          "score": 142
+        },
+        {
+          "date": "2026-08-31T06:57:46",
+          "raw": 32,
+          "score": 142
+        },
+        {
+          "date": "2026-08-24T06:23:55",
+          "raw": 29,
+          "score": 133
+        },
+        {
+          "date": "2026-08-10T06:19:35",
+          "raw": 32,
+          "score": 142
+        }
+      ]
+    },
+    {
+      "id": "Claude-5-Sonnet",
+      "name": "Claude-5 Sonnet",
+      "score": 136,
+      "n": 6,
+      "from_date": "2026-08-07",
+      "to_date": "2026-09-12",
+      "modality": "verbal",
+      "selected": true,
+      "runs": [
+        {
+          "date": "2026-09-12T16:56:35",
+          "raw": 28,
+          "score": 130
+        },
+        {
+          "date": "2026-09-04T17:03:51",
+          "raw": 30,
+          "score": 136
+        },
+        {
+          "date": "2026-08-28T17:07:33",
+          "raw": 31,
+          "score": 139
+        },
+        {
+          "date": "2026-08-21T18:11:05",
+          "raw": 30,
+          "score": 136
+        },
+        {
+          "date": "2026-08-14T16:51:48",
+          "raw": 32,
+          "score": 142
+        },
+        {
+          "date": "2026-08-07T16:43:53",
+          "raw": 28,
+          "score": 130
+        }
+      ]
+    },
+    {
+      "id": "Grok-4-5-Vision",
+      "name": "Grok 4.6 High (Vision)",
+      "score": 132,
+      "n": 7,
+      "from_date": "2026-07-24",
+      "to_date": "2026-09-12",
+      "modality": "visual",
+      "selected": false,
+      "runs": [
+        {
+          "date": "2026-09-12T21:39:26",
+          "raw": 27,
+          "score": 127
+        },
+        {
+          "date": "2026-08-27T23:30:31",
+          "raw": 30,
+          "score": 136
+        },
+        {
+          "date": "2026-08-13T23:00:23",
+          "raw": 28,
+          "score": 130
+        },
+        {
+          "date": "2026-08-13T03:01:57",
+          "raw": 30,
+          "score": 136
+        },
+        {
+          "date": "2026-08-06T23:05:35",
+          "raw": 28,
+          "score": 130
+        },
+        {
+          "date": "2026-07-30T22:30:12",
+          "raw": 28,
+          "score": 130
+        },
+        {
+          "date": "2026-07-24T23:43:29",
+          "raw": 29,
+          "score": 133
+        }
+      ]
+    },
+    {
+      "id": "Gemini Pro (Vision)",
+      "name": "Gemini 3.1 Pro (Vision)",
+      "score": 129,
+      "n": 7,
+      "from_date": "2026-08-05",
+      "to_date": "2026-09-11",
+      "modality": "visual",
+      "selected": false,
+      "runs": [
+        {
+          "date": "2026-09-11T20:42:58",
+          "raw": 30,
+          "score": 136
+        },
+        {
+          "date": "2026-09-02T21:55:11",
+          "raw": 27,
+          "score": 127
+        },
+        {
+          "date": "2026-08-26T22:19:15",
+          "raw": 28,
+          "score": 130
+        },
+        {
+          "date": "2026-08-19T20:08:33",
+          "raw": 29,
+          "score": 133
+        },
+        {
+          "date": "2026-08-18T00:12:28",
+          "raw": 27,
+          "score": 127
+        },
+        {
+          "date": "2026-08-12T21:47:42",
+          "raw": 25,
+          "score": 121
+        },
+        {
+          "date": "2026-08-05T18:25:18",
+          "raw": 28,
+          "score": 130
+        }
+      ]
+    },
+    {
+      "id": "Claude-5-Sonnet-Vision",
+      "name": "Claude-5 Sonnet (Vision)",
+      "score": 102,
+      "n": 7,
+      "from_date": "2026-07-29",
+      "to_date": "2026-09-15",
+      "modality": "visual",
+      "selected": false,
+      "runs": [
+        {
+          "date": "2026-09-15T07:35:52",
+          "raw": 19,
+          "score": 103
+        },
+        {
+          "date": "2026-09-06T01:32:14",
+          "raw": 17,
+          "score": 97
+        },
+        {
+          "date": "2026-08-30T01:46:40",
+          "raw": 20,
+          "score": 106
+        },
+        {
+          "date": "2026-08-22T21:30:56",
+          "raw": 20,
+          "score": 106
+        },
+        {
+          "date": "2026-08-15T21:32:58",
+          "raw": 18,
+          "score": 100
+        },
+        {
+          "date": "2026-08-08T21:07:14",
+          "raw": 20,
+          "score": 106
+        },
+        {
+          "date": "2026-07-29T03:24:07",
+          "raw": 17,
+          "score": 97
+        }
+      ]
+    }
+  ]
+}
